@@ -30,7 +30,10 @@
         qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(qrValue);
         imgBox.classList.add("show-img");
     } else {
-        alert("Please enter text or URL to generate a QR code");
+        qrText.classList.add('error');
+        setTimeout(()=>{
+            qrText.classList.remove('error');
+        },1000)
     }
         }
     </script>
