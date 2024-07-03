@@ -4,7 +4,7 @@ A simple web application to generate QR codes from input text or URLs.
 
 ## Link 
 
-[Link Text]([URL](https://qr-code-generator-chi-weld.vercel.app/))
+**[Website]([URL](https://qr-code-generator-chi-weld.vercel.app/))
 
 ## Features
 
